@@ -1,3 +1,3 @@
-export const Button = ({onClick, text}) => {
-    return <button onClick={onClick}>{text}</button>
+export const Button = ({onClick, text, red}) => {
+    return <button onClick={onClick} style={{backgroundColor: red ? "red" : ""}}>{text}</button>
 }
